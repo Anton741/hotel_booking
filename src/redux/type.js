@@ -1,0 +1,5 @@
+export const LOAD_HOTELS= "LOAD_HOTELS"
+export const SET_HOTELS = "SET_HOTELS"
+export const LOGIN_IN = "LOGIN_IN"
+export const CLICK_FAVORITE = "CLICK_FAVORITE"
+export const CURRENT_SEARCH = "CURRENT_SEARCH"
