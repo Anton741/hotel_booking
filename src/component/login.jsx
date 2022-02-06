@@ -51,7 +51,7 @@ const Login = () => {
   isLogin && history.push("main")
   return (
     <div className="authentication">
-      <h1 className="authentication__title">Simple Hotel Check</h1>
+      <h1 className="authentication__title">Simple</h1>
       {isLogin === false && <Errors error={"Неправильный логин или пароль"} />}
       <LoginForm handleChange={handleChange} handleSubmit={handleSubmit} error = {error}/>
     </div>
